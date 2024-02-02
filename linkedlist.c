@@ -103,6 +103,9 @@ int main() {
                 printf("\nDigit any key to Exit ");
                 scanf("%s", any);
                 break;
+            default:
+                end = 1;
+                break;
         }
 
         printf("\n \n");
